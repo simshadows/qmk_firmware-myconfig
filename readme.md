@@ -1,3 +1,11 @@
+# [qmk_firmware-myconfig] Fork Summary
+
+This repository is a personal fork of the original [`qmk_firmware`](https://github.com/qmk/qmk_firmware) repository, used to store my custom keymaps.
+
+Summary of changes made:
+
+- Added the keymap `keyboards/idobao/montex/v1/keymaps/simshadows`.
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
