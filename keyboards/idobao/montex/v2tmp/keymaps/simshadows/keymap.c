@@ -57,11 +57,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * └───┴───────┴───┘───┘
      */
     [1] = LAYOUT(
-        _______,     LSG(KC_F17), LSG(KC_F18), LSG(KC_F19), LAG(KC_F13),
-        LSG(KC_F16), LAG(KC_F21), LAG(KC_F22), LAG(KC_F24), LSG(KC_F24),
-        LSG(KC_F15), KC_HOME,     KC_UP,       KC_PGUP,     _______,
-        LSG(KC_F14), KC_LEFT,     XXXXXXX,     KC_RGHT,
-        LSG(KC_F13), KC_END,      KC_DOWN,     KC_PGDN,     QK_BOOT,
-        LAG(KC_F20), KC_INS,                   KC_DEL
+        _______,     RGB_MOD, RGB_VAD, RGB_VAI, LAG(KC_F13),
+        LSG(KC_F19), RGB_HUD, RGB_HUI, RGB_SAD, RGB_SAI,
+        LSG(KC_F18), KC_HOME, KC_UP,   KC_PGUP, LSG(KC_F14),
+        LSG(KC_F17), KC_LEFT, XXXXXXX, KC_RGHT,
+        LSG(KC_F16), KC_END,  KC_DOWN, KC_PGDN, QK_BOOT,
+        LSG(KC_F15), KC_INS,           KC_DEL
     )
 };
